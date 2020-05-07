@@ -125,7 +125,10 @@ body {
   transform: scale(1.1);
   cursor: pointer;
 }
-.forma p {
+#nombretext,
+#lasttext,
+#emailtext,
+#passtext {
   display: flex;
   margin-bottom: 10px;
   justify-content: right;
