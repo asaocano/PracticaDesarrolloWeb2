@@ -13,9 +13,11 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700&display=swap"
       rel="stylesheet"
     />
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
     <title>Frontend Mentor | Intro component with sign up form</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -38,19 +40,61 @@
         </div>
         <div class="formulario">
           <div class="forma">
-            <input type="text" name="" id="" placeholder="   First name" />
+            <input
+              type="text"
+              name=""
+              id="nombre"
+              placeholder="   First name"
+            />
+            <p>
+              First name cannot be empty<img
+                src="images/icon-error.svg"
+                alt=""
+              />
+            </p>
           </div>
 
           <div class="forma">
-            <input type="text" name="" id="" placeholder="   Last name" />
+            <input
+              type="text"
+              name=""
+              id="apellido"
+              placeholder="   Last name"
+            />
+            <p>
+              Last name cannot be empty<img
+                src="images/icon-error.svg"
+                alt=""
+              />
+            </p>
           </div>
 
           <div class="forma">
-            <input type="email" name="" id="" placeholder="   Email address" />
+            <input
+              type="email"
+              name=""
+              id="correo"
+              placeholder="   Email address"
+            />
+            <p>
+              Looks like this is not an email<img
+                src="images/icon-error.svg"
+                alt=""
+              />
+            </p>
           </div>
 
           <div class="forma">
-            <input type="password" name="" id="" placeholder="   Password" />
+            <input
+              type="password"
+              name=""
+              id="contraseña"
+              placeholder="   Password"
+            />
+            <p>
+              Password cannot be empty
+              <img src="images/icon-error.svg" alt="" />
+            </p>
           </div>
 
           <div class="button">
